@@ -8,3 +8,5 @@ Add a Happy Brad.
 3. Go to your Dashboard, click the Gear, click "+ New Widget", and choose the type of "HappyBrad"
 4. Hit Save, and return to your dashboard
 5. Enjoy your life
+
+![Screenshot](https://raw.githubusercontent.com/mattstauffer/happybrad/master/happybrad-in-action.png)
