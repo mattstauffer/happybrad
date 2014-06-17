@@ -1,6 +1,6 @@
-# HappyBrad [Craft CMS](http://buildwithcraft.com/)
+# HappyBrad for [Craft CMS](http://buildwithcraft.com/)
 
-Add a Happy Brad.
+Add a Happy Brad Dashboard Widget.
 
 ## Installation
 1. Move the `happybrad` directory into your `craft/plugins` directory.
