@@ -4,7 +4,7 @@ namespace Craft;
 
 class HappyBradWidget extends BaseWidget
 {
-	protected $omg_so_handsome = 'http://i.imgur.com/WbKwPij.jpg';
+	protected $omg_so_handsome = 'https://i.imgur.com/WbKwPij.jpg';
 
 	public function getName()
 	{
