@@ -1,12 +1,25 @@
-# HappyBrad for [Craft CMS](http://buildwithcraft.com/)
+# HappyBrad for [Craft CMS](https://craftcms.com/)
 
 Add a Happy Brad Dashboard Widget.
 
-## Installation
-1. Move the `happybrad` directory into your `craft/plugins` directory.
-2. Go to Settings &gt; Plugins from your Craft control panel and enable the `happybrad` plugin
-3. Go to your Dashboard, click the Gear, click "+ New Widget", and choose the type of "HappyBrad"
-4. Hit Save, and return to your dashboard
-5. Enjoy your life
+## Requirements
 
-![Screenshot](https://raw.githubusercontent.com/mattstauffer/happybrad/master/happybrad-in-action.png)
+This plugin requires Craft CMS 3.0.0-beta.1 or later. (For Craft 2 use the [`v1` branch](https://github.com/mattstauffer/happybrad/tree/v1))
+
+## Installation
+
+To install the plugin, follow these instructions.
+
+1. Open your terminal and go to your Craft project:
+
+        cd /path/to/project
+
+2. Then tell Composer to load the plugin:
+
+        composer require mattstauffer/happybrad
+
+3. In the Control Panel, go to Settings → Plugins and click the “Install” button for Happy Brad.
+4. Go to your Dashboard, click “+ New Widget”, and choose “Happy Brad”.
+5. Enjoy your life.
+
+![Screenshot](happybrad-in-action.png)
