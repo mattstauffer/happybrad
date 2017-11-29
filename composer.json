@@ -17,11 +17,10 @@
     }
   ],
   "support": {
-    "email": "support@craftcms.com",
-    "issues": "https://github.com/craftcms/anchors/issues?state=open",
-    "source": "https://github.com/craftcms/anchors",
-    "docs": "https://github.com/craftcms/anchors",
-    "rss": "https://github.com/craftcms/anchors/commits/v2.atom"
+    "issues": "https://github.com/mattstauffer/happybrad/issues?state=open",
+    "source": "https://github.com/mattstauffer/happybrad",
+    "docs": "https://github.com/mattstauffer/happybrad",
+    "rss": "https://github.com/mattstauffer/happybrad/commits/master.atom"
   },
   "require": {
     "craftcms/cms": "~3.0.0-beta.1"
