@@ -1,0 +1,38 @@
+{
+  "name": "mattstauffer/happybrad",
+  "description": "Add a Happy Brad to your Craft CMS Dashboard.",
+  "type": "craft-plugin",
+  "keywords": [
+    "happy",
+    "brad",
+    "craftcms",
+    "dashboard",
+    "widget"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Matt Stauffer",
+      "homepage": "http://mattstauffer.co/"
+    }
+  ],
+  "support": {
+    "email": "support@craftcms.com",
+    "issues": "https://github.com/craftcms/anchors/issues?state=open",
+    "source": "https://github.com/craftcms/anchors",
+    "docs": "https://github.com/craftcms/anchors",
+    "rss": "https://github.com/craftcms/anchors/commits/v2.atom"
+  },
+  "require": {
+    "craftcms/cms": "~3.0.0-beta.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "mattstauffer\\happybrad\\": "src/"
+    }
+  },
+  "extra": {
+    "name": "Happy Brad",
+    "handle": "happy-brad"
+  }
+}
