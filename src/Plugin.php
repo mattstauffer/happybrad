@@ -10,6 +10,8 @@ class Plugin extends \craft\base\Plugin
 {
     public function init()
     {
+        parent::init();
+
         Event::on(Dashboard::class, Dashboard::EVENT_REGISTER_WIDGET_TYPES, function(RegisterComponentTypesEvent $e) {
             $e->types[] = Widget::class;
         });
