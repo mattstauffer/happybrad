@@ -1,6 +1,6 @@
 <?php
 
-declare(strict_types = 1);
+declare(strict_types=1);
 
 namespace mattstauffer\happybrad;
 
@@ -17,7 +17,7 @@ class Widget extends \craft\base\Widget
 
     public static function iconPath(): string
     {
-        return __DIR__.'/icon-mask.svg';
+        return __DIR__ . '/icon-mask.svg';
     }
 
     public function getBodyHtml(): ?string
@@ -28,6 +28,6 @@ class Widget extends \craft\base\Widget
 CSS;
         Craft::$app->view->registerCss($css);
 
-        return '<img src="'.$this->omg_so_handsome.'" alt="OMG so handsome" width="100%">';
+        return '<img src="' . $this->omg_so_handsome . '" alt="OMG so handsome" width="100%">';
     }
 }

@@ -37,12 +37,3 @@ declare(strict_types=1);
 | global functions to help you to reduce the number of lines of code in your test files.
 |
 */
-
-function disableCustomFields(): void
-{
-    $class = '\craft\behaviors\CustomFieldBehavior';
-    if (Yii::$container->has($class)) {
-        spl_autoload_unregister([Craft::class, 'autoload']);
-        Yii::$container->set($class, new \yii\base\Behavior());
-    }
-}

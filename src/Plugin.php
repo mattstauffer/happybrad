@@ -1,7 +1,6 @@
 <?php
 
-declare(strict_types = 1);
-
+declare(strict_types=1);
 
 namespace mattstauffer\happybrad;
 
@@ -16,10 +15,10 @@ class Plugin extends \craft\base\Plugin
         parent::init();
 
         Event::on(
-            Dashboard::class, 
-            Dashboard::EVENT_REGISTER_WIDGET_TYPES, 
-            function(RegisterComponentTypesEvent $e) {
+            Dashboard::class,
+            Dashboard::EVENT_REGISTER_WIDGET_TYPES,
+            function (RegisterComponentTypesEvent $e) {
                 $e->types[] = Widget::class;
-        });
+            });
     }
 }
