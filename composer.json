@@ -37,12 +37,19 @@
   "minimum-stability": "dev",
   "prefer-stable": true,
   "require-dev": {
-    "craftcms/rector": "dev-main"
+    "craftcms/rector": "dev-main",
+    "craftcms/phpstan": "dev-main",
+    "pestphp/pest": "^1.22"
   },
   "config": {
     "allow-plugins": {
       "yiisoft/yii2-composer": true,
-      "craftcms/plugin-installer": true
+      "craftcms/plugin-installer": true,
+      "pestphp/pest-plugin": true
     }
+  },
+  "scripts": {
+      "phpstan": "vendor/bin/phpstan analyse",
+      "test": "vendor/bin/pest"
   }
 }
