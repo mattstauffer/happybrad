@@ -18,7 +18,7 @@ class Widget extends \craft\base\Widget
         return __DIR__.'/icon-mask.svg';
     }
 
-    public function getBodyHtml()
+    public function getBodyHtml(): ?string
     {
         $css = <<<CSS
 #widget{$this->id} h2 { display: none; }

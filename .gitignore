@@ -1,2 +1,15 @@
-.DS_Store
-/.idea
+.idea
+.php_cs
+.php_cs.cache
+.php-cs-fixer.cache
+.phpunit.result.cache
+build
+tests/runtime
+tests/storage
+composer.lock
+coverage
+docs
+/vendor
+node_modules
+*.log
+/tests/_craft/storage/
